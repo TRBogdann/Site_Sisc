@@ -75,3 +75,15 @@ position:fixed;
     font-size: 3.6rem;
     margin-left: 5rem;
   }
+  .img-logo {
+    border-radius: 30%;
+    width: 100px;
+    float: right;
+  }
+
+  .title {
+    color:#f1f1f1;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Papyrus, 'Times New Roman', Times, serif ;
+  }
