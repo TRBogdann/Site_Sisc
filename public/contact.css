@@ -1,0 +1,277 @@
+*,*::after,*::before
+{
+  padding:0;
+  margin:0;  
+  font-size:10px;
+}
+
+@media screen and (min-width:0px)
+{
+html{
+font-size:4px;
+}
+}
+
+
+@media screen and (min-width:400px)
+{
+html{
+font-size:6px;
+}
+}
+
+@media screen and (min-width:800px)
+{
+html{
+font-size:8px;
+}
+}
+
+
+@media screen and (min-width:1000px)
+{
+html{
+font-size:10px;
+}
+}
+body
+{
+  background:linear-gradient(to left,#FFA500,#FF4500);
+}
+footer
+{ position:fixed;
+  bottom:0.5rem;
+  right:0.5rem;
+
+}
+.navbar
+{
+display:flex;
+background:rgb(40, 38, 38);
+height:5rem;
+}
+
+.menu
+{width:10vw;
+  position: absolute;
+display:flex;
+flex-direction: row;
+cursor: pointer;
+}
+.menu1
+{   
+    height:5rem;
+    width:4rem;
+    margin-left:0.5rem;
+    background-image: url(media/menu1_white.png);
+    background-size: 100% 100%;
+}
+
+
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 6rem; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  }
+  .img-logo{
+    border-radius: 30%;
+    width: 7rem;
+    float: right;
+
+  }
+
+  .title1
+  { width:100vw;
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    color:#f1f1f1;
+    font-size: 3rem;
+    font-family: Papyrus, 'Times New Roman', Times, serif ;
+  }
+ 
+  .clienti
+{
+height:100rem;
+width:100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.ctitlu
+{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    font-weight:1000;
+    width:85vw;
+    font-size: 3rem;
+    
+}
+.ctextbox
+{ 
+ 
+    font-size:2rem;
+    width:80vw;
+    
+
+}
+.cinfo
+{  
+  background:linear-gradient(to right,#5F0A87,#A4508B);
+    margin-top:5rem;
+
+    color:rgb(218, 236, 225);
+    height:40rem;
+    width:60rem;    
+    border-radius:2rem;
+    display: flex;
+    flex-direction: row;
+}
+.cinfoblock
+{   
+    width:30rem;
+    height:40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cinfotext
+{   margin-top:3rem;
+    width:24rem;
+    font-size: 2rem;
+    height:35rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.cnav
+{   position:absolute;
+    display:flex;
+    justify-content:center;
+    width:60rem;
+    margin-top:17.5rem;
+    height:5rem;
+
+}
+.larrow
+{
+height:100%;
+
+width:4rem;
+
+}
+.rarrow
+{
+
+height:100%;
+width:4rem;
+}
+.rarrow:hover,.larrow:hover
+{
+    background-color:rgb(33, 1, 27);
+    
+}
+.clogo:hover
+{
+  width:7rem;
+
+}
+.f:hover
+{
+width:8rem;
+}
+.filler
+{
+height:100%;
+
+width: 50rem;
+}
+.cpoza
+{
+    width:10rem;
+    height:10rem;
+    object-fit:cover;
+    border-radius:50%;
+}
+.cnume
+{
+font-size:3rem;
+margin:0.5rem;
+}
+.contact
+{   
+    margin:0.5rem;
+    font-size:1.5rem;
+}
+.clogos
+{
+  width:100vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.clogo
+{ margin: 1rem;
+  
+      width: 5rem;
+}
+.f
+{
+  width:6rem;
+}
+
+.animated
+{
+    animation: myanimation 1s ;
+}
+
+@keyframes myanimation {
+    from {filter:opacity(20%)}
+    to {filter:opacity(100%);}
+  }
+
+.container
+{
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}

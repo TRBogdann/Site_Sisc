@@ -1,0 +1,153 @@
+*,*::after,*::before
+{
+  padding:0;
+  margin:0;  
+  font-size:10px;
+}
+
+@media screen and (min-width:0px)
+{
+html{
+font-size:4px;
+}
+
+.img1
+{
+ content:url("/public/media/haloween1.jpeg");
+}
+}
+
+
+@media screen and (min-width:400px)
+{
+html{
+font-size:6px;
+}
+}
+
+@media screen and (min-width:800px)
+{
+html{
+font-size:8px;
+}
+.img1{
+content:url("/public/media/haloween2.jpeg");
+}
+}
+
+
+@media screen and (min-width:1000px)
+{
+html{
+font-size:10px;
+}
+}
+footer
+
+{ position:fixed;
+  bottom:0.5rem;
+  right:0.5rem;
+}
+body
+{
+  
+  background:linear-gradient(to left,#FFA500,#FF4500);
+}
+
+.navbar
+{
+display:flex;
+background:rgb(40, 38, 38);
+height:5rem;
+}
+img
+{
+width:100vw;
+height:100vh;
+margin-top:5rem;
+object-fit:cover;
+object-position: 0,0;
+}
+
+.menu
+{width:10vw;
+  position: absolute;
+display:flex;
+flex-direction: row;
+cursor: pointer;
+}
+.menu1
+{   
+    height:5rem;
+    width:4rem;
+    margin-left:0.5rem;
+    background-image: url(media/menu1_white.png);
+    background-size: 100% 100%;
+}
+
+
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 6rem; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  }
+
+
+  .pagina {
+    display:flex;
+    justify-content:  flex-end;
+    height:100vh;
+    align-items: flex-end;
+  }
+
+  .img-logo{
+    border-radius: 30%;
+    height:7rem;
+    width: 7rem;
+    float: right;
+
+  }
+  .title1
+  { width:100vw;
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    color:#f1f1f1;
+    font-size: 3rem;
+    font-family: Papyrus, 'Times New Roman', Times, serif ;
+  }
